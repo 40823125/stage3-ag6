@@ -135,12 +135,15 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">2.Basketball machine Slider << <a href='2.Basketball machine Slider.html'>Previous</a> <br /><h1>3.Basketball machine by (MTB_Robot)</h1>
-<p>小組產品:籃球機<br/><br/>目標:把stage2-ag12的籃球機加入記分功能，籃框左右移動，fanuc_m710ic_50手臂投球，與最後才加的Mtb_robot取放球。<br/><br/>策略:<br/><br/>我們一次往3種方向去研究，不會使大家都研究同一項，結果最後還無法完成。因為只要有一項完成，我們的籃球機就有成果，且先完成的還能支援組員，使團隊更有效率。<br/><br/>工作分配:1人籃球框移動程式，1人畫圖，2人感測器，2人機械手臂組裝，2人機械手臂控制。<br/><br/>困難點:<br/><br/>時間與技術的不足，fanuc_m710ic_50手臂無法有效地做出投球的動作，目前只能簡單轉動單一軸的控制，理想狀態是:取到球後手臂做出投球一半的動作時，關閉氣壓缸，使球產生速度投進籃框裡。</p>
+<p>使用老師的ik程式，使Mtb_robot放球到最終的位置(x=1.002,y=0)<br/><br/>但是把MTB_robot放到籃球機的場景裡，不能直接在程式裡打ik(1.002,0)，因為MTB_robot沒有在座標原點上，所以要減掉MTB_robot的座標(0.7496,-2.3502)，得出(0.2506,2.3502)，才會移動到正確的座標。</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/b6ULHTMFeOQ" title="YouTube video player" width="560"></iframe></p>
 <p></p>
 <p>操作說明</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/aB3qmGUtIP8" width="560"></iframe></p>
 <p>鍵盤操作</p>
 <p><img alt="" height="557" src="./../images/鍵盤圖1.jpg" width="500"/></p>
+<div class="notranslate" style="all: initial;"></div>
+<div class="notranslate" style="all: initial;"></div>
 <div class="notranslate" style="all: initial;"></div>
 <div class="notranslate" style="all: initial;"></div>
 <div class="notranslate" style="all: initial;"></div><br />2.Basketball machine Slider << <a href='2.Basketball machine Slider.html'>Previous</a> </div>
